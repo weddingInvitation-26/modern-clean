@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gilang & Sasa - Wedding Invitation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="loader">
+    <div class="loader-heart"><i class="fas fa-heart"></i></div>
+    <div class="loader-text">Modern Love</div>
+  </div>
+
+  <div class="music-control" id="musicToggle">
+    <i class="fas fa-music"></i>
+  </div>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">G & S</div>
+      <div class="nav-toggle" id="navToggle">
+        <span></span><span></span><span></span>
+      </div>
+      <div class="nav-menu" id="navMenu">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#couple" class="nav-link">Couple</a>
+        <a href="#story" class="nav-link">Story</a>
+        <a href="#events" class="nav-link">Events</a>
+        <a href="#gallery" class="nav-link">Gallery</a>
+        <a href="#rsvp" class="nav-link">RSVP</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="petals-container" id="petals" style="display:none;"></div>
+
+  <section class="hero" id="home">
+    <div class="hero-blob hero-blob--1"></div>
+    <div class="hero-blob hero-blob--2"></div>
+    <div class="hero-blob hero-blob--3"></div>
+    <div class="hero-content">
+      <p class="hero-greeting">The Wedding of</p>
+      <h1 class="hero-title">Gilang <span class="hero-amp">&amp;</span> Sasa</h1>
+      <p class="hero-date">01 . 01 . 2027</p>
+      <p class="hero-sub">Kepada Yth. Bapak/Ibu/Saudara/i</p>
+      <p class="hero-name">[Nama Tamu]</p>
+      <a href="#rsvp" class="btn btn-primary hero-btn">Buka Undangan <i class="fas fa-arrow-right"></i></a>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <section class="section" id="couple">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">01</span>
+        <p class="section-subtitle">The Couple</p>
+        <h2 class="section-title">Pernikahan Kami</h2>
+        <div class="divider"></div>
+        <p class="section-text">Mahabbah, Mawaddah, Warahmah. Semoga menjadi keluarga yang sakinah.</p>
+      </div>
+      <div class="couple-grid">
+        <div class="couple-card reveal-left">
+          <div class="couple-img-wrapper">
+            <div class="couple-img" style="background: var(--primary);">
+              <i class="fas fa-user"></i>
+            </div>
+          </div>
+          <h3 class="couple-name">Gilang Ramadhan</h3>
+          <p class="couple-parent">Putra dari Bapak Ahmad & Ibu Siti</p>
+          <div class="couple-social">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+          </div>
+        </div>
+        <div class="couple-union reveal">
+          <div class="union-icon"><i class="fas fa-heart"></i></div>
+          <div class="union-text">&amp;</div>
+        </div>
+        <div class="couple-card reveal-right">
+          <div class="couple-img-wrapper">
+            <div class="couple-img" style="background: var(--primary);">
+              <i class="fas fa-user"></i>
+            </div>
+          </div>
+          <h3 class="couple-name">Sasa Nurjanah</h3>
+          <p class="couple-parent">Putri dari Bapak Dadang & Ibu Dewi</p>
+          <div class="couple-social">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="story">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">02</span>
+        <p class="section-subtitle">Love Story</p>
+        <h2 class="section-title">Perjalanan Cinta</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2019</span>
+            <h3>Pertemuan Pertama</h3>
+            <p>Berawal dari sebuah acara seminar, kami bertemu dan mulai saling mengenal satu sama lain.</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2021</span>
+            <h3>Menjadi Serius</h3>
+            <p>Setelah dua tahun bersama, kami memutuskan untuk melangkah ke jenjang yang lebih serius.</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2027</span>
+            <h3>Pernikahan</h3>
+            <p>Dan akhirnya, dengan izin Allah, kami akan melangsungkan pernikahan pada 1 Januari 2027.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="countdown-section" id="countdown">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title" style="color: var(--white);">Menuju Hari Bahagia</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="countdown-grid">
+        <div class="countdown-item"><span class="countdown-num" id="days">00</span><span class="countdown-label">Hari</span></div>
+        <div class="countdown-item"><span class="countdown-num" id="hours">00</span><span class="countdown-label">Jam</span></div>
+        <div class="countdown-item"><span class="countdown-num" id="minutes">00</span><span class="countdown-label">Menit</span></div>
+        <div class="countdown-item"><span class="countdown-num" id="seconds">00</span><span class="countdown-label">Detik</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="events">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">03</span>
+        <p class="section-subtitle">Events</p>
+        <h2 class="section-title">Rangkaian Acara</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="events-grid">
+        <div class="event-card reveal">
+          <div class="event-icon"><i class="fas fa-ring"></i></div>
+          <h3 class="event-title">Akad Nikah</h3>
+          <div class="event-info">
+            <p><i class="fas fa-calendar"></i> 1 Januari 2027</p>
+            <p><i class="fas fa-clock"></i> 08:00 - 10:00 WIB</p>
+            <p><i class="fas fa-map-marker-alt"></i> Gedung Serbaguna, Jakarta</p>
+            <p class="event-address">Jl. Merdeka No. 123, Jakarta Pusat</p>
+          </div>
+          <a href="#" class="btn btn-outline">Lihat Lokasi <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="event-card reveal">
+          <div class="event-icon"><i class="fas fa-glass-cheers"></i></div>
+          <h3 class="event-title">Resepsi</h3>
+          <div class="event-info">
+            <p><i class="fas fa-calendar"></i> 1 Januari 2027</p>
+            <p><i class="fas fa-clock"></i> 11:00 - 17:00 WIB</p>
+            <p><i class="fas fa-map-marker-alt"></i> Gedung Serbaguna, Jakarta</p>
+            <p class="event-address">Jl. Merdeka No. 123, Jakarta Pusat</p>
+          </div>
+          <a href="#" class="btn btn-outline">Lihat Lokasi <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="dresscode reveal">
+        <h3><i class="fas fa-tshirt"></i> Dress Code</h3>
+        <div class="dress-colors">
+          <span class="dress-color" style="background: #4A6CF7;" title="#4A6CF7"></span>
+          <span class="dress-color" style="background: #6C63FF;" title="#6C63FF"></span>
+          <span class="dress-color" style="background: #1A1A2E;" title="#1A1A2E"></span>
+          <span class="dress-color" style="background: #FFFFFF;" title="#FFFFFF"></span>
+        </div>
+        <p>Dress code: Formal / Semi-Formal</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">04</span>
+        <p class="section-subtitle">Gallery</p>
+        <h2 class="section-title">Galeri Foto</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item" data-height="tall" data-caption="Prewedding"><div class="gallery-img" style="background: linear-gradient(135deg, #4A6CF7, #6C63FF);"><i class="fas fa-camera"></i></div></div>
+        <div class="gallery-item" data-height="short" data-caption="Akad"><div class="gallery-img" style="background: linear-gradient(135deg, #7B9CFF, #4A6CF7);"><i class="fas fa-camera"></i></div></div>
+        <div class="gallery-item" data-height="tall" data-caption="Resepsi"><div class="gallery-img" style="background: linear-gradient(135deg, #6C63FF, #5A52E0);"><i class="fas fa-camera"></i></div></div>
+        <div class="gallery-item" data-height="short" data-caption="Honeymoon"><div class="gallery-img" style="background: linear-gradient(135deg, #4A6CF7, #1A1A2E);"><i class="fas fa-camera"></i></div></div>
+        <div class="gallery-item" data-height="short" data-caption="Family"><div class="gallery-img" style="background: linear-gradient(135deg, #6C63FF, #4A6CF7);"><i class="fas fa-camera"></i></div></div>
+        <div class="gallery-item" data-height="tall" data-caption="Friends"><div class="gallery-img" style="background: linear-gradient(135deg, #5A52E0, #1A1A2E);"><i class="fas fa-camera"></i></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="rsvp">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">05</span>
+        <p class="section-subtitle">RSVP</p>
+        <h2 class="section-title">Konfirmasi Kehadiran</h2>
+        <div class="divider"></div>
+      </div>
+      <form class="rsvp-form" id="rsvpForm">
+        <div class="form-group">
+          <label>Nama Lengkap</label>
+          <input type="text" id="name" required placeholder="Masukkan nama">
+        </div>
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" id="email" required placeholder="Masukkan email">
+        </div>
+        <div class="form-group">
+          <label>No. WhatsApp</label>
+          <input type="tel" id="phone" required placeholder="Masukkan no. WA">
+        </div>
+        <div class="form-group">
+          <label>Jumlah Tamu</label>
+          <select id="guests">
+            <option value="1">1 Orang</option>
+            <option value="2">2 Orang</option>
+            <option value="3">3 Orang</option>
+            <option value="4">4 Orang</option>
+          </select>
+        </div>
+        <div class="form-group full">
+          <label>Kehadiran</label>
+          <div class="radio-group">
+            <label class="radio-label">
+              <input type="radio" name="attendance" value="hadir" checked>
+              <span class="radio-custom"><i class="fas fa-check"></i></span>
+              Hadir
+            </label>
+            <label class="radio-label">
+              <input type="radio" name="attendance" value="tidak hadir">
+              <span class="radio-custom"><i class="fas fa-check"></i></span>
+              Tidak Hadir
+            </label>
+          </div>
+        </div>
+        <div class="form-group full">
+          <label>Pesan & Doa</label>
+          <textarea id="message" rows="3" placeholder="Tulis pesan dan doa untuk kami..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary form-btn">Kirim <i class="fas fa-arrow-right"></i></button>
+      </form>
+      <div class="rsvp-success" id="rsvpSuccess">
+        <i class="fas fa-check-circle"></i>
+        <h3>Terima Kasih!</h3>
+        <p>Konfirmasi kehadiran Anda telah kami terima.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="wishes">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">06</span>
+        <p class="section-subtitle">Wishes</p>
+        <h2 class="section-title">Doa & Ucapan</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="wishes-grid" id="wishesGrid">
+        <div class="wish-card">
+          <div class="wish-avatar"><i class="fas fa-user"></i></div>
+          <div class="wish-body">
+            <h4>Selamat Menempuh Hidup Baru</h4>
+            <p>Semoga menjadi keluarga yang sakinah, mawaddah, warahmah. Barakallah!</p>
+            <span class="wish-date">- Admin</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section thanks" id="thanks">
+    <div class="container">
+      <div class="thanks-content">
+        <h2>Terima Kasih</h2>
+        <div class="divider"></div>
+        <p>Atas perhatian dan doa restu Bapak/Ibu/Saudara/i, kami mengucapkan terima kasih yang sebesar-besarnya.</p>
+        <p class="thanks-signature">Wassalamu'alaikum Warahmatullahi Wabarakatuh</p>
+        <div class="thanks-names">
+          <h3>Gilang</h3>
+          <span class="thanks-amp">&amp;</span>
+          <h3>Sasa</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2027 Gilang & Sasa. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <div class="floating-hearts" id="floatingHearts"></div>
+
+  <div class="gallery-modal" id="galleryModal">
+    <span class="modal-close"><i class="fas fa-times"></i></span>
+    <span class="modal-prev"><i class="fas fa-chevron-left"></i></span>
+    <span class="modal-next"><i class="fas fa-chevron-right"></i></span>
+    <div class="modal-content">
+      <div class="modal-img"></div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+
+  <div class="envelope-overlay" id="envelopeOverlay">
+  <div class="envelope-container">
+    <div class="envelope-card">
+      <div class="envelope-front" id="envelopeFront">
+        <div class="envelope-seal" id="envelopeSeal"><i class="fas fa-heart"></i></div>
+        <div class="envelope-flap"></div>
+        <div class="envelope-body">
+          <div class="envelope-label">&#x1F48C;</div>
+          <div class="envelope-label-text">Undangan Pernikahan</div>
+        </div>
+      </div>
+      <div class="invitation-card" id="invitationCard">
+        <div class="card-badge">&#x1F48C;</div>
+        <h3 class="card-sub">The Wedding of</h3>
+        <h1 class="card-names">Gilang &amp; Sasa</h1>
+        <div class="card-divider">&#x2661;</div>
+        <p class="card-date">01 . 01 . 2027</p>
+        <p class="card-text">Dengan segala hormat, kami mengundang Bapak/Ibu/Saudara/i untuk hadir memberikan doa restu.</p>
+        
+      </div>
+    </div>
+    <button class="envelope-close-btn" id="envelopeClose"><i class="fas fa-times"></i></button>
+  </div>
+</div>
+</body>
+</html>
